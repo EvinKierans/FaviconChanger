@@ -1,0 +1,22 @@
+{
+    "name": "Brightspace fixed icon Favicon Changer",
+    "version": "0.1",
+    "description": "Change Website Favicons Perminantly",
+    "browser_action": {
+        "browser_style": true,
+        "default_popup": "popup.html",
+        "default_icon": "images/memeB.png"
+    },
+    "icons":{
+        "220": "images/memeB.png"
+    },
+    "options_page": "options_page.html",
+    "background":{
+        "scripts":[
+            "js/background.js"
+            "js/faviconReplace.js"
+        ],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
